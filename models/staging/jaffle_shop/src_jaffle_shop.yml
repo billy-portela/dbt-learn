@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
+  - name: src
     description: A clone of a Postgres application database.
-    database: raw
+    database: dbt_billyportela
     tables:
       - name: customers
         description: Raw customers data.
@@ -13,7 +13,7 @@ sources:
             tests:
               - unique
               - not_null
-            
+
       - name: orders
         description: Raw orders data.
         loaded_at_field: _etl_loaded_at
