@@ -17,7 +17,3 @@ with payments as (
 )
 
 select * from payments
-<<<<<<< HEAD
-{{limit_data_in_dev('created_at', 2000)}}
-=======
->>>>>>> 1088817c913a7e70b306ecb441b8a1d03cba13fc

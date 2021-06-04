@@ -1,6 +1,6 @@
 -----List of payment methods
 ------ use - character to remove white spaces
-    {%- set payment_methods = ['credit_card','coupon','bank_transfer','gift_card'] -%}
+{%- set payment_methods = ['credit_card','coupon','bank_transfer','gift_card'] %}
 
 with payments as(
     Select * FROM {{ref('stg_payments')}}
