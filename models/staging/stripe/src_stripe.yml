@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: stripe
+  - name: src
     description: A clone of a Postgres application database.
-    database: raw
+    database: dbt_billyportela
     tables:
       - name: payment
         description: Raw payments data.
